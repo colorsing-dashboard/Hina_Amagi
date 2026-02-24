@@ -3,13 +3,13 @@
 
 window.DASHBOARD_CONFIG = {
   "brand": {
-    "name": "",
+    "name": "ひなまるん！",
     "sidebarTitle": "　color sing",
     "footerText": "",
     "footerSubText": "",
     "footerNote": "",
-    "pageTitle": "サイト名を設定 - 特典管理",
-    "loadingEmoji": "🎵",
+    "pageTitle": "ひなまるん！ - 特典管理",
+    "loadingEmoji": "🧸",
     "loadingText": "Loading...",
     "showTitle": true,
     "titleGradient": true,
