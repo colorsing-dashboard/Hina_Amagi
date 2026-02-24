@@ -26,10 +26,20 @@ window.DASHBOARD_CONFIG = {
   "colorOverrides": {
     "headerGradientStart": "",
     "headerGradientEnd": "",
+    "cardBorder": "",
+    "cardBorderHover": "",
     "primaryText": "",
     "accentText": "",
     "rank1Card": "",
-    "titleColor": ""
+    "backgroundMain": "",
+    "backgroundMid": "",
+    "nameText": "",
+    "footerText": "",
+    "contentText": "",
+    "titleColor": "",
+    "subText": "",
+    "popupOverlayColor": "",
+    "popupOverlayOpacity": ""
   },
   "fonts": {
     "display": "'Playfair Display', serif",
@@ -188,9 +198,9 @@ window.DASHBOARD_CONFIG = {
   },
   "deploy": {
     "owner": "colorsing-dashboard",
-    "repo": "",
+    "repo": "Hina_Amagi",
     "branch": "main",
-    "token": ""
+    "token": "rev:hfpcu4LVYAZUQYRRtZFX8c6JZ1SQJa3OBRlUZtdpBmPFZFLAh7RrXsWUsaw_FEJ3jkyZgJpT0IMBSTQB11_tap_buhtig"
   },
   "admin": {
     "password": "mickle0w0",
