@@ -193,7 +193,7 @@ window.DASHBOARD_CONFIG = {
     "token": ""
   },
   "admin": {
-    "password": "",
+    "password": "mickle0w0",
     "developerKey": "CSadmin"
   }
 }
