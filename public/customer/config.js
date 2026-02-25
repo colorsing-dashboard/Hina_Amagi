@@ -11,35 +11,42 @@ window.DASHBOARD_CONFIG = {
     "pageTitle": "ひなまるん！ - 特典管理",
     "loadingEmoji": "🧸",
     "loadingText": "Loading...",
+    "showHeader": false,
     "showTitle": true,
-    "titleGradient": true,
-    "titleGradientDirection": "to-r"
+    "titleGradient": false,
+    "titleGradientDirection": "to-r",
+    "titleGlow": false
   },
   "colors": {
-    "deepBlue": "#0a1628",
-    "oceanTeal": "#1b4965",
-    "lightBlue": "#8ab4f8",
-    "amber": "#d4a574",
-    "accent": "#c1121f",
-    "gold": "#ffd700"
+    "deepBlue": "#ffffff",
+    "oceanTeal": "#86fef6",
+    "lightBlue": "#58c0e0",
+    "amber": "#a494ff",
+    "accent": "#4080d8",
+    "gold": "#e8f4ff"
   },
   "colorOverrides": {
     "headerGradientStart": "",
     "headerGradientEnd": "",
-    "cardBorder": "",
-    "cardBorderHover": "",
-    "primaryText": "",
+    "titleGradientStart": "",
+    "titleGradientMid": "",
+    "titleGradientEnd": "",
+    "cardBorder": "#ff6a1a",
+    "cardBorderHover": "#ffcf24",
+    "primaryText": "#36116f",
     "accentText": "",
-    "rank1Card": "",
+    "rank1Card": "#1976f0",
     "backgroundMain": "",
     "backgroundMid": "",
-    "nameText": "",
+    "nameText": "#7977da",
     "footerText": "",
-    "contentText": "",
+    "contentText": "#7a78e8",
     "titleColor": "",
-    "subText": "",
+    "subText": "#495fd0",
     "popupOverlayColor": "",
-    "popupOverlayOpacity": ""
+    "popupOverlayOpacity": "",
+    "glassBgOpacity": 0.35,
+    "glassBgColor": "#fbfe48"
   },
   "fonts": {
     "display": "'Playfair Display', serif",
@@ -54,7 +61,7 @@ window.DASHBOARD_CONFIG = {
     "favicon": "./customer/vite.svg"
   },
   "sheets": {
-    "spreadsheetId": "",
+    "spreadsheetId": "1-HbWK_-RuNYTt5jHklwrM-LQMzSOttBa2Vb51L0C_GQ",
     "rankingSheetName": "目標管理・ランキング",
     "benefitsSheetName": "特典管理",
     "benefitsContentSheetName": "特典内容",
@@ -159,6 +166,7 @@ window.DASHBOARD_CONFIG = {
   "home": {
     "rankingTitle": "Ranking",
     "pointsLabel": "歌推しPt",
+    "pointsUnit": "k",
     "targetsTitle": "Targets",
     "targetLabels": [
       "今旬の目標",
