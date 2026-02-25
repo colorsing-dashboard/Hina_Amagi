@@ -122,35 +122,35 @@ window.DASHBOARD_CONFIG = {
     },
     {
       "key": "10k",
-      "icon": "🎮",
+      "icon": "🖼️",
       "columnIndex": 2,
       "displayTemplate": "獲得済！",
       "isBoolean": true
     },
     {
       "key": "20k",
-      "icon": "💬",
+      "icon": "🎙️",
       "columnIndex": 3,
       "displayTemplate": "獲得済！",
       "isBoolean": true
     },
     {
       "key": "30k",
-      "icon": "🎤",
+      "icon": "💗",
       "columnIndex": 4,
       "displayTemplate": "獲得済！",
       "isBoolean": true
     },
     {
       "key": "40k",
-      "icon": "⚡",
+      "icon": "💌",
       "columnIndex": 5,
       "displayTemplate": "獲得済！",
       "isBoolean": true
     },
     {
       "key": "50k",
-      "icon": "🏆",
+      "icon": "🎁",
       "columnIndex": 6,
       "displayTemplate": "獲得済！",
       "isBoolean": true
