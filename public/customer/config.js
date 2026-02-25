@@ -21,7 +21,7 @@ window.DASHBOARD_CONFIG = {
     "deepBlue": "#ffffff",
     "oceanTeal": "#86fef6",
     "lightBlue": "#58c0e0",
-    "amber": "#a494ff",
+    "amber": "#9380ff",
     "accent": "#4080d8",
     "gold": "#e8f4ff"
   },
@@ -33,20 +33,22 @@ window.DASHBOARD_CONFIG = {
     "titleGradientEnd": "",
     "cardBorder": "#ff6a1a",
     "cardBorderHover": "#ffcf24",
-    "primaryText": "#36116f",
-    "accentText": "",
-    "rank1Card": "#1976f0",
+    "primaryText": "#6b75ff",
+    "accentText": "#4993f3",
+    "rank1Card": "#ff387e",
     "backgroundMain": "",
     "backgroundMid": "",
-    "nameText": "#7977da",
-    "footerText": "",
-    "contentText": "#7a78e8",
+    "nameText": "#9380ff",
+    "footerText": "#9380ff",
+    "contentText": "#9380ff",
     "titleColor": "",
     "subText": "#495fd0",
     "popupOverlayColor": "",
-    "popupOverlayOpacity": "",
-    "glassBgOpacity": 0.35,
-    "glassBgColor": "#fbfe48"
+    "popupOverlayOpacity": 0.85,
+    "menuCardLabelColor": "#00ffd5",
+    "menuCardLabelOpacity": 0,
+    "glassBgOpacity": 1,
+    "glassBgColor": "#fffbcc"
   },
   "fonts": {
     "display": "'Playfair Display', serif",
@@ -115,52 +117,42 @@ window.DASHBOARD_CONFIG = {
       "key": "5k",
       "icon": "🎵",
       "columnIndex": 1,
-      "displayTemplate": "強制リクエスト: {value}曲"
+      "displayTemplate": "強制リクエスト: {value}曲分"
     },
     {
       "key": "10k",
       "icon": "🎮",
       "columnIndex": 2,
-      "displayTemplate": "権利: {value}時間分"
+      "displayTemplate": "獲得済！",
+      "isBoolean": true
     },
     {
       "key": "20k",
       "icon": "💬",
       "columnIndex": 3,
-      "displayTemplate": "オープンチャット招待済",
+      "displayTemplate": "獲得済！",
       "isBoolean": true
     },
     {
       "key": "30k",
       "icon": "🎤",
       "columnIndex": 4,
-      "displayTemplate": "アカペラ音源獲得: {value}曲"
+      "displayTemplate": "獲得済！",
+      "isBoolean": true
     },
     {
       "key": "40k",
       "icon": "⚡",
       "columnIndex": 5,
-      "displayTemplate": "強制リクエスト: {value}曲"
+      "displayTemplate": "獲得済！",
+      "isBoolean": true
     },
     {
       "key": "50k",
       "icon": "🏆",
       "columnIndex": 6,
-      "displayTemplate": "ミックス音源獲得: {value}曲"
-    },
-    {
-      "key": "メンバーシップA",
-      "icon": "👑",
-      "columnIndex": 7,
-      "displayTemplate": "月内リクエスト対応中",
-      "isMembership": true
-    },
-    {
-      "key": "メンバーシップB",
-      "icon": "🌟",
-      "columnIndex": 0,
-      "displayTemplate": "特典: {value}",
-      "isMembership": true
+      "displayTemplate": "獲得済！",
+      "isBoolean": true
     }
   ],
   "home": {
@@ -198,11 +190,11 @@ window.DASHBOARD_CONFIG = {
   },
   "effects": {
     "iconFloat": true,
-    "particles": "bubble",
-    "particleDirection": "up",
-    "particleColor": "",
-    "particleSize": 0.5,
-    "particleOpacity": 1
+    "particles": "heart",
+    "particleDirection": "down",
+    "particleColor": "#ff85e9",
+    "particleSize": 0.75,
+    "particleOpacity": 2.5
   },
   "deploy": {
     "owner": "colorsing-dashboard",
