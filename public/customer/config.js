@@ -47,7 +47,7 @@ window.DASHBOARD_CONFIG = {
     "popupOverlayOpacity": 0.85,
     "menuCardLabelColor": "#00ffd5",
     "menuCardLabelOpacity": 0,
-    "glassBgOpacity": 1,
+    "glassBgOpacity": 0.9,
     "glassBgColor": "#fffbcc"
   },
   "fonts": {
@@ -86,16 +86,17 @@ window.DASHBOARD_CONFIG = {
     },
     {
       "id": "menu",
-      "label": "Menu",
-      "icon": "🍸",
-      "enabled": true
+      "label": "特典一覧",
+      "icon": "📝",
+      "enabled": true,
+      "title": "特典一覧"
     },
     {
       "id": "rights",
-      "label": "ボトルキープ",
+      "label": "特典権利者",
       "icon": "👥",
       "enabled": true,
-      "title": "ボトルキープ一覧"
+      "title": "特典権利者"
     },
     {
       "id": "icons",
@@ -193,8 +194,8 @@ window.DASHBOARD_CONFIG = {
     "particles": "heart",
     "particleDirection": "down",
     "particleColor": "#ff85e9",
-    "particleSize": 0.75,
-    "particleOpacity": 2.5
+    "particleSize": 1,
+    "particleOpacity": 3
   },
   "deploy": {
     "owner": "colorsing-dashboard",
