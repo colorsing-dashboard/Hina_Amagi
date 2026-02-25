@@ -38,7 +38,7 @@ window.DASHBOARD_CONFIG = {
     "rank1Card": "#ff387e",
     "backgroundMain": "",
     "backgroundMid": "",
-    "nameText": "#9380ff",
+    "nameText": "#4993f3",
     "footerText": "#9380ff",
     "contentText": "#9380ff",
     "titleColor": "",
@@ -48,13 +48,13 @@ window.DASHBOARD_CONFIG = {
     "menuCardLabelColor": "#00ffd5",
     "menuCardLabelOpacity": 0,
     "glassBgOpacity": 0.9,
-    "glassBgColor": "#fffbcc"
+    "glassBgColor": "#ffffff"
   },
   "fonts": {
-    "display": "'Playfair Display', serif",
-    "displayUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap",
-    "body": "'M PLUS 2', sans-serif",
-    "bodyUrl": "https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@400;500;700&display=swap",
+    "display": "'Yomogi', cursive",
+    "displayUrl": "https://fonts.googleapis.com/css2?family=Yomogi:wght@400&display=swap",
+    "body": "'Yomogi', cursive",
+    "bodyUrl": "https://fonts.googleapis.com/css2?family=Yomogi:wght@400&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
@@ -195,7 +195,7 @@ window.DASHBOARD_CONFIG = {
     "particleDirection": "down",
     "particleColor": "#ff85e9",
     "particleSize": 1,
-    "particleOpacity": 3
+    "particleOpacity": 1.5
   },
   "deploy": {
     "owner": "colorsing-dashboard",
