@@ -4,18 +4,18 @@
 window.DASHBOARD_CONFIG = {
   "brand": {
     "name": "ひなまるん！",
-    "sidebarTitle": "　color sing",
+    "sidebarTitle": "ColorSing",
     "footerText": "",
     "footerSubText": "",
     "footerNote": "",
     "pageTitle": "ひなまるん！ - 特典管理",
-    "loadingEmoji": "🧸",
+    "loadingEmoji": "🧸‎🤍",
     "loadingText": "Loading...",
     "showHeader": false,
     "showTitle": true,
-    "titleGradient": false,
+    "titleGradient": true,
     "titleGradientDirection": "to-r",
-    "titleGlow": false
+    "titleGlow": true
   },
   "colors": {
     "deepBlue": "#ffffff",
@@ -51,15 +51,15 @@ window.DASHBOARD_CONFIG = {
     "glassBgColor": "#ffffff"
   },
   "fonts": {
-    "display": "'Yomogi', cursive",
-    "displayUrl": "https://fonts.googleapis.com/css2?family=Yomogi:wght@400&display=swap",
+    "display": "'Playfair Display', serif",
+    "displayUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap",
     "body": "'Yomogi', cursive",
     "bodyUrl": "https://fonts.googleapis.com/css2?family=Yomogi:wght@400&display=swap",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
   },
   "images": {
-    "headerDesktop": "",
-    "headerMobile": "",
+    "headerDesktop": "https://24.gigafile.nu/0330-dd56c59242700575c2e8eb50f64991beb",
+    "headerMobile": "https://24.gigafile.nu/0330-dd56c59242700575c2e8eb50f64991beb",
     "favicon": "./customer/vite.svg"
   },
   "sheets": {
@@ -118,41 +118,42 @@ window.DASHBOARD_CONFIG = {
       "key": "5k",
       "icon": "🎵",
       "columnIndex": 1,
-      "displayTemplate": "強制リクエスト: {value}曲分"
+      "displayTemplate": "強制リクエスト: {value}曲分",
+      "isBoolean": true
     },
     {
       "key": "10k",
       "icon": "🖼️",
       "columnIndex": 2,
-      "displayTemplate": "獲得済！",
+      "displayTemplate": "直筆サイン入りブロマイド（郵送）",
       "isBoolean": true
     },
     {
       "key": "20k",
       "icon": "🎙️",
       "columnIndex": 3,
-      "displayTemplate": "獲得済！",
+      "displayTemplate": "歌ってみた 限定URL",
       "isBoolean": true
     },
     {
       "key": "30k",
       "icon": "💗",
       "columnIndex": 4,
-      "displayTemplate": "獲得済！",
+      "displayTemplate": "ボイスメッセージ",
       "isBoolean": true
     },
     {
       "key": "40k",
       "icon": "💌",
       "columnIndex": 5,
-      "displayTemplate": "獲得済！",
+      "displayTemplate": "お手紙（郵送）",
       "isBoolean": true
     },
     {
       "key": "50k",
       "icon": "🎁",
       "columnIndex": 6,
-      "displayTemplate": "獲得済！",
+      "displayTemplate": "オリジナルグッズ（郵送）",
       "isBoolean": true
     }
   ],
